@@ -30,7 +30,7 @@ A secure user authentication system built using **Node.js**, **Express**, **Mong
 /routes           → Express routes
 /middleware       → Auth middleware
 /config           → Environment config
-index.js          → Entry point (for local use)
+index.js          → Entry point
 vercel.json       → Deployment config
 ```
 
@@ -88,9 +88,9 @@ npm install
 
 Create a .env file in the root:
 
-PORT=port
-MONGO_URI=mongodb_connection_string
-MONGODB_COLLECTION=mongodb_collection_name
+PORT=port  
+MONGO_URI=mongodb_connection_string  
+MONGODB_COLLECTION=mongodb_collection_name  
 JWT_SECRET=jwt_secret
 
 ### 4. Run the app in the dev server
